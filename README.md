@@ -44,7 +44,7 @@ brain_stroke_detection/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/brain_stroke_detection.git
+git clone [https://github.com/tukus@1963/brain_stroke_detection.git](https://github.com/tukus1963/Brain_Stroke_Detection.git)
 cd brain_stroke_detection
 
 # 2. Create virtual environment
