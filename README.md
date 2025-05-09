@@ -13,7 +13,7 @@ This project is a Flask-based web application that allows users to upload brain 
 
 > Upload a brain scan image to check if a stroke is detected.
 
-![Screenshot](uploads/demo_screenshot.png) <!-- You can add a real screenshot later -->
+![Screenshot](Screenshot.png) <!-- You can add a real screenshot later -->
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +34,7 @@ This project is a Flask-based web application that allows users to upload brain 
 ```bash
 brain_stroke_detection/
 ├── templates/          # HTML templates 
-├── uploads/            # Temporarily stores images  
+├── uploads/            # Temporarily stores images 
 ├── venv/               # Python virtual environment
 ├── main.py             # Flask backend code
 ├── brain_tumor_classifier.h5    # Trained Keras model
