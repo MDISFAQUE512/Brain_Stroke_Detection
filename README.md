@@ -42,20 +42,21 @@ brain_stroke_detection/
 
 ## ⚙️ Setup Instructions
 
-```bash
 # 1. Clone the repository
-git clone [https://github.com/tukus@1963/brain_stroke_detection.git](https://github.com/tukus1963/Brain_Stroke_Detection.git)
-cd brain_stroke_detection
+git clone https://github.com/tukus1963/Brain_Stroke_Detection.git
+cd Brain_Stroke_Detection
 
-# 2. Create virtual environment
+# 2. Create a virtual environment
 python -m venv venv
-venv\Scripts\activate  # On Windows
-# or
-source venv/bin/activate  # On Mac/Linux
 
-# 3. Install dependencies
+# 3. Activate the virtual environment
+venv\Scripts\activate        # On Windows
+# or
+source venv/bin/activate     # On macOS/Linux
+
+# 4. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Flask app
+# 5. Run the Flask app
 python main.py
 
