@@ -40,6 +40,7 @@ brain_stroke_detection/
 ├── requirements.txt # Python dependencies
 └── .gitignore # Git ignore rules
 
+
 ## ⚙️ Setup Instructions
 
 # 1. Clone the repository
