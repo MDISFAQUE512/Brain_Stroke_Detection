@@ -30,19 +30,18 @@ This project is a Flask-based web application that allows users to upload brain 
 3. The trained CNN model (`brain_tumor_classifier.h5`) predicts stroke presence.
 4. Result and confidence score are displayed to the user.
 
-## 📁 Folder Structure
+## 📂 Folder Structure
+```bash
 brain_stroke_detection/
-├── templates/ # HTML templates (e.g., index.html)
-├── uploads/ # Temporarily stores uploaded images
-├── venv/ # Python virtual environment
-├── main.py # Flask backend code
-├── brain_tumor_classifier.h5 # Trained Keras model
-├── requirements.txt # Python dependencies
-└── .gitignore # Git ignore rules
-
-
+├── templates/          # HTML templates 
+├── uploads/            # Temporarily stores images  
+├── venv/               # Python virtual environment
+├── main.py             # Flask backend code
+├── brain_tumor_classifier.h5    # Trained Keras model
+├── requirements.txt    # Python dependencies
+└── .gitignore          # Git ignore rules
+```
 ## ⚙️ Setup Instructions
-
 # 1. Clone the repository
 ```bash
 git clone https://github.com/tukus1963/Brain_Stroke_Detection.git
