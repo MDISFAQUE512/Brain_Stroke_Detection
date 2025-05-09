@@ -15,6 +15,12 @@ This project is a Flask-based web application that allows users to upload brain 
 
 ![Screenshot](Screenshot.png) <!-- You can add a real screenshot later -->
 
+## 🧠 Dataset
+
+This project uses the Brain Tumor MRI Dataset available on [Kaggle](https://www.kaggle.com/datasets/tukussaha/brain-tumor-dataset). The dataset contains MRI scans categorized into different types of brain tumors, providing the training foundation for our detection model.
+
+> [Access the complete dataset here](https://www.kaggle.com/datasets/tukussaha/brain-tumor-dataset)
+
 ## 🛠️ Tech Stack
 
 - Python
