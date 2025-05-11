@@ -47,7 +47,7 @@ def predict_tumor(image_path):
         processed = preprocess_image(image_path)
         prediction = model.predict(processed)
         probability = float(prediction[0][0])
-        result = "Tumor Detected" if probability > 0.5 else "No Tumor Detected"
+        result = "Stroke Detected" if probability > 0.5 else "No Stroke Detected"
         confidence = probability if probability > 0.5 else 1 - probability
         return {"result": result, "confidence": f"{confidence:.2%}"}
     except Exception as e:
